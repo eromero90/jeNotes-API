@@ -1,0 +1,17 @@
+{
+  "name": "jenotesapi",
+  "version": "1.0.0",
+  "description": "api to manage notes",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js"
+  },
+  "author": "Edison Romero",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "mongodb": "^2.0.36",
+    "mongoose": "^4.0.6"
+  }
+}
