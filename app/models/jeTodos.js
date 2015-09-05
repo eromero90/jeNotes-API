@@ -7,6 +7,7 @@ var TodoSchema = new Schema({
 });
 
 var TodosBox = new Schema({
+	title : {type : String, default: ''},
 	todos: [TodoSchema],
 	creationDate : {type : Date, default : Date.now},
 	lastUpdate : {type : Date, default : Date.now}

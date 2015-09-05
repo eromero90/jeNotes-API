@@ -2,6 +2,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var NotesBox = new Schema({
+	title : {type : String, default: ''},
 	note : {type : String, default: ''},
 	creationDate : {type : Date, default : Date.now},
 	lastUpdate : {type : Date, default : Date.now}
